@@ -1,0 +1,115 @@
+.toast {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  height: 56px;
+  z-index: 9999;
+}
+
+@media (min-width: 768px) {
+  .toast {
+    width: 343px;
+
+    margin-bottom: 24px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .toast {
+    width: 87vw;
+
+  }
+
+}
+
+.message {
+  margin-left: 10px;
+  flex-grow: 1;
+}
+
+.divider {
+  height: 24px;
+  width: 1px;
+  background-color: white;
+  margin: 0 10px;
+}
+
+.custom-button {
+  background-color: #47B647;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+.circle-icon circle {
+  fill: #282829;
+  color: #282829;
+}
+
+.circle-icon>circle:nth-child(2) {
+  fill: #4077FF;
+}
+
+.circle-icon {
+  color: #282829;
+}
+
+.error-icon {
+  color: #282829;
+}
+
+.error-icon circle {
+  fill: #282829;
+}
+
+.error-icon rect {
+  fill: red;
+}
+
+.error-icon line {
+  stroke: #282829;
+  stroke-width: 16px;
+  z-index: 1;
+}
+
+.warning-icon circle {
+  fill: #282829;
+
+}
+
+.warning-icon {
+  color: #282829;
+
+}
+
+.warning-icon line {
+  color: #282829;
+
+}
+
+.warning-icon>circle:nth-child(2) {
+  fill: #FFC500
+}
+
+.success-icon {
+  color: #1ebf33;
+
+}
+
+
+.success-icon polyline {
+  stroke: #00A151;
+}
